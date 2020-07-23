@@ -3,18 +3,22 @@
 let firstName = 'Ethan';
 
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
-let lastName = 'Kavanagh';
+let lastName = ' Kavanagh';
 
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
 let fullName = firstName + lastName;
+
 // 4 - Console log the value of `fullName`
+console.log( fullName );
 
 // 5 - Create a variable called `age` and assign it the value of your age
+let age = 18;
 
 // 6 - Console log this sentence, adding in the variables you created above:
 // 'My name is (full name), and I am (age) years old.'.
 // Refer back to the videos if you need help with this one.
+console.log( 'My name is ' + fullName + ', and I am ' + age + ' years old.' );
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 
