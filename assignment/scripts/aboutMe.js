@@ -47,7 +47,7 @@ const allowedPets = 5;
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
-if ( adventurous === true ){
+if( adventurous === true ){
   console.log( 'Adventures are great!' );
 }
 else{
@@ -57,12 +57,21 @@ else{
 // STRETCH GOALS:
 // 14 - Create a compound conditional: if age is greater than 18 and adventurous is true,
 // console log "Hurray!"
+if( age > 18 && adventurous === true ){
+  console.log( 'Hurray!' );
+} //I checked it if I was 19 and it works since it wouldn't show up since I'm 18.
 
 // 15 - Write a conditional that console logs "I can have more pets!"
 //if the value of `pets` is less than the value of `allowedPets`,
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
+if( pets <= allowedPets ){
+  console.log( 'I have enough pets' );
+}
+else{
+  console.log( 'Oh no, I have too many pets' );
+} //Shouldn't it be less than or equal?
 
 // 16 - Write a conditional that assigns the value of the `pets` variable
 // to a new variable called `mostPets` IF `pets` is greater than `friendsPets`.
