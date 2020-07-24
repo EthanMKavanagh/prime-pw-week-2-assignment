@@ -59,7 +59,7 @@ else{
 // console log "Hurray!"
 if( age > 18 && adventurous === true ){
   console.log( 'Hurray!' );
-} //I checked it if I was 19 and it works since it wouldn't show up since I'm 18.
+} //I checked it if I was 19 and it works. I did that because it doesn't show up since I'm 18.
 
 // 15 - Write a conditional that console logs "I can have more pets!"
 //if the value of `pets` is less than the value of `allowedPets`,
