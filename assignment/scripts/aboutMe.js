@@ -1,9 +1,11 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
-let firstName = 'Ethan';
+let firstName = 'Ethan ';
+console.log ( firstName );
 
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
-let lastName = ' Kavanagh';
+let lastName = 'Kavanagh';
+console.log ( lastName );
 
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
@@ -14,6 +16,7 @@ console.log( fullName );
 
 // 5 - Create a variable called `age` and assign it the value of your age
 let age = 18;
+console.log( age );
 
 // 6 - Console log this sentence, adding in the variables you created above:
 // 'My name is (full name), and I am (age) years old.'.
@@ -21,13 +24,20 @@ let age = 18;
 console.log( 'My name is ' + fullName + ', and I am ' + age + ' years old.' );
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
+let adventurous = true;
+console.log( adventurous );
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
+let food = 'Ice Cream';
+console.log( food );
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
+let pets = 3;
+console.log( pets );
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-
+let friendsPets = 2;
+console.log( friendsPets );
 // 11 - Add two pets to your `pets` variable
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
