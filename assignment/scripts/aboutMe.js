@@ -66,14 +66,25 @@ if( age > 18 && adventurous === true ){
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
-if( pets <= allowedPets ){
-  console.log( 'I have enough pets' );
+if( pets < allowedPets ){
+  console.log( 'I can have more pets!' );
+}
+else if( pets = allowedPets ){
+  console.log( 'I have enough pets!' );
 }
 else{
-  console.log( 'Oh no, I have too many pets' );
-} //Shouldn't it be less than or equal?
+  console.log( 'Oh no, I have too many pets!' );
+}
 
 // 16 - Write a conditional that assigns the value of the `pets` variable
 // to a new variable called `mostPets` IF `pets` is greater than `friendsPets`.
 // If `friendsPets` is greater than `pets`, assign the value of the `friendsPets`
 // variable to `mostPets`. Console log the value of `mostPets`.
+if( pets > friendsPets ){
+  let mostPets = pets
+  console.log( 'The most amount of pets is:', mostPets );
+}
+else if( pets < friendsPets ){
+  let mostPets = friendsPets
+  console.log( 'The most amount of pets is:', mostPets );
+}
