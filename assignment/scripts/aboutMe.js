@@ -39,12 +39,20 @@ console.log( pets );
 let friendsPets = 2;
 console.log( friendsPets );
 // 11 - Add two pets to your `pets` variable
+pets += 2;
+console.log( pets );
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
+const allowedPets = 5;
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
-
+if ( adventurous === true ){
+  console.log( 'Adventures are great!' );
+}
+else{
+  console.log( 'How about we stay home?' );
+}
 
 // STRETCH GOALS:
 // 14 - Create a compound conditional: if age is greater than 18 and adventurous is true,
